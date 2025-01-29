@@ -1,0 +1,142 @@
+@media (max-width :1080px){
+    .main-content-card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        min-width:  25rem;
+    }
+    .icons{
+        margin-left: 80%;
+    }
+}
+
+@media (max-width:845px){
+    
+    .btn-container{
+        border: none;
+    }
+    button{
+        margin-left: 20px;
+    }
+    .hero-container,.hero-container2{
+        flex-direction: column;
+        height: auto;
+    }
+    .left-part{
+        height: 100vh;
+        width: 100% !important;
+    }
+    .right-part{
+        /* background-color: red; */
+        /* margin-top: 40%; */
+        height: 50vh;
+        width: 100%;
+    }
+    .hero-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero2-left-part{
+        width: 100%;
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .hero-img2{
+        /* display: none; */
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-right-part{
+        /* background-color: red; */
+        /* margin-top: 40%; */
+        height: 60vh;
+        width: 100%;
+    }
+    .card{
+        max-width: 20rem;
+    }
+    .middle-banner{
+        height: 75vh;
+    }
+    .kf{
+        width: 40%;
+    }
+
+
+
+
+}
+@media (max-width:525px){
+
+
+    .left-part{
+        height: 70vh;
+        width: 100% !important;
+    }
+    .right-part{
+        /* background-color: red; */
+        /* margin-top: 40%; */
+        height: 40vh;
+        width: 100%;
+        img{
+            width: 80%;
+        }
+    }
+
+    .hero2-left-part{
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .hero-img2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    img{
+        width: 65%;
+    }
+}
+
+    .hero-content h1{
+        font-size: 4rem;
+    }
+    .card{
+        min-width:  18rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .middle-banner{
+        height: 130vh;
+    }
+    .knife-fork{
+        height: 100vh;
+        /* margin-top: -200px; */
+        
+    }
+    .kf{
+        width: 80%;
+        height: min-content;
+        
+        margin: 0;
+    }
+    .video-container{
+        margin-top: -200px;
+        height: 60%;
+    }
+
+    .card-right button{
+        top: 10%;
+        margin: 0;
+    }
+} 
